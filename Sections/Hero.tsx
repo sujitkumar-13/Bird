@@ -156,111 +156,107 @@ export const Hero = () => {
                             <div className="absolute bg-cover   h-full w-full left-0 top-0"></div>
                         </div>
                     </div>
-                    <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-                        <div className="relative   w-full bg-center px-[25px]">
+                    <div className="relative   flex flex-wrap  z-10">
+                        <div className="relative   w-full bg-center ">
                             <div className="relative  ">
-                                <div className=" ">
-                                    <div className="relative bg-cover  w-full py-[15%] md:py-16">
-                                        <div className="absolute inset-0 w-full h-full left-0 top-0">
-                                            <div className="absolute   h-full w-full z-[1] overflow-hidden left-0 top-0">
-                                                <div className="absolute bg-black bg-cover   h-full w-full left-0 top-0"></div>
-                                            </div>
+                                <div className="relative bg-cover  w-full py-[15%] md:py-16">
+                                    <div className="absolute inset-0 w-full h-full left-0 top-0">
+                                        <div className="absolute h-full w-full z-[1] overflow-hidden left-0 top-0">
+                                            <div className="absolute bg-black bg-cover h-full w-full left-0 top-0"></div>
                                         </div>
-                                        <div className="absolute h-[2%] w-full z-[3] left-0 bottom-0">
-                                            <img
-                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-4.svg"
-                                                alt="Icon"
-                                                className="absolute   h-full w-full left-0 -bottom-px"
-                                            />
-                                        </div>
-                                        <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-                                            <div className="relative   w-full bg-center px-[25px]">
-                                                <div className="relative   pb-5">
-                                                    <div className=" ">
-                                                        <div className="relative   pt-5 md:pt-0">
-                                                            <div className="absolute   h-full w-full left-0 top-0">
-                                                                <div className="absolute bg-cover   h-full w-full left-0 top-0"></div>
-                                                            </div>
-                                                            <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-                                                                <div className="relative items-stretch   flex flex-wrap w-full bg-center mb-[25px] px-[25px] md:flex-nowrap md:w-6/12 md:mb-0">
-                                                                    <div className="relative   flex flex-col grow justify-center w-full">
-                                                                        <div className="  min-h-px">
-                                                                            <HeroForm variant="top-rated" />
-                                                                            <HeroForm
-                                                                                variant="heading"
-                                                                                mainHeading="Digital Marketing Agency in UK"
-                                                                                subHeading="That "
-                                                                                emphasizedText="Delivers Results"
-                                                                                iconUrl="https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-5.svg"
-                                                                            />
-                                                                            <HeroForm variant="spacer-small" />
-                                                                            <div className="  mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: "0.3s" }}>
-                                                                                Accelerate your business growth with
-                                                                                our multi award-winning, Full Service
-                                                                                Digital Marketing Agency in UK,
-                                                                                offering a broad spectrum of tailored
-                                                                                digital solutions. With headquarters
-                                                                                in the UK and branches worldwide, our
-                                                                                proven expertise ensures you outpace
-                                                                                the competition and achieve measurable
-                                                                                success.
-                                                                            </div>
-                                                                            <div className="  mt-[5px] mb-6">
-                                                                                <HeroForm
-                                                                                    variant="form"
-                                                                                    formId="11"
-                                                                                    formUid="93bc79"
-                                                                                    formUrl="/?utm_source=birdmarketing.co.uk&utm_medium=redirect&utm_campaign=domain_redirect"
-                                                                                    postId="11503"
-                                                                                    postTitle="Digital Marketing Agency UK"
-                                                                                    csrfToken="ISSVjG0GSgAtzgs5uFklxkuAFxoJ3wHarYYD7opj"
-                                                                                    placeholderText="Enter Website Address"
-                                                                                    buttonText="GET MY FREE PROPOSAL"
-                                                                                />
-                                                                            </div>
-                                                                            <div className=" ">
-                                                                                <HeroForm variant="spacer-large" />
-                                                                            </div>
-                                                                            <div className="flex flex-wrap gap-8 items-center justify-start mt-8 animate-fade-in-up opacity-0" style={{ animationDelay: "0.5s" }}>
-                                                                                {[
-                                                                                    { href: "https://www.trustpilot.com/review/birdmarketing.co.uk", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/trustpilot-reviews.png", rating: "4.9", count: "98" },
-                                                                                    { href: "https://g.page/BirdAgency/", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/google-reviews.png", rating: "4.9", count: "64" },
-                                                                                    { href: "https://www.goodfirms.co/company/bird-marketing", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/goodfirms-reviews-1.png", rating: "5", count: "60", isGoodFirms: true },
-                                                                                    { href: "https://clutch.co/profile/bird-marketing", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/clutch-reviews-1.png", rating: "5", count: "65" }
-                                                                                ].map((badge, i) => (
-                                                                                    <div key={i} className="flex flex-col items-start w-[140px]">
-                                                                                        <a href={badge.href} className="group transition-opacity hover:opacity-80">
-                                                                                            <img src={badge.img} alt="" className="h-8 w-auto mb-2 object-contain" />
-                                                                                            <div className="text-sm font-bold text-white">
-                                                                                                {badge.rating}/5 <span className="font-normal text-gray-400 text-xs">({badge.count} Reviews)</span>
-                                                                                            </div>
-                                                                                        </a>
+                                    </div>
+                                    <div className="absolute h-[2%] w-full z-[3] left-0 bottom-0">
+                                        <img
+                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-4.svg"
+                                            alt="Icon"
+                                            className="absolute   h-full w-full left-0 -bottom-px"
+                                        />
+                                    </div>
+                                    <div className="relative flex flex-wrap ml-[-25px] mr-[-25px] z-10">
+                                        <div className="relative w-full bg-center px-[25px] mt-[15px]">
+                                            <div className="relative pb-5">
+                                                <div className="relative pt-5 md:pt-0">
+                                                    <div className="absolute   h-full w-full left-0 top-0">
+                                                        <div className="absolute bg-cover   h-full w-full left-0 top-0"></div>
+                                                    </div>
+                                                    <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10 ">
+                                                        <div className="relative items-stretch flex flex-wrap w-full bg-center mb-[25px] px-[25px] md:flex-nowrap md:w-6/12 md:mb-0">
+                                                            <div className="relative flex flex-col grow justify-center w-full md:pl-20">
+                                                                <div className="  min-h-px">
+                                                                    <HeroForm variant="top-rated" />
+                                                                    <HeroForm
+                                                                        variant="heading"
+                                                                        mainHeading="Digital Marketing Agency in UK"
+                                                                        subHeading="That "
+                                                                        emphasizedText="Delivers Results"
+                                                                        iconUrl="https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-5.svg"
+                                                                    />
+                                                                    <HeroForm variant="spacer-small" />
+                                                                    <div className="  mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: "0.3s" }}>
+                                                                        Accelerate your business growth with
+                                                                        our multi award-winning, Full Service
+                                                                        Digital Marketing Agency in UK,
+                                                                        offering a broad spectrum of tailored
+                                                                        digital solutions. With headquarters
+                                                                        in the UK and branches worldwide, our
+                                                                        proven expertise ensures you outpace
+                                                                        the competition and achieve measurable
+                                                                        success.
+                                                                    </div>
+                                                                    <div className="  mt-[5px] mb-6">
+                                                                        <HeroForm
+                                                                            variant="form"
+                                                                            formId="11"
+                                                                            formUid="93bc79"
+                                                                            formUrl="/?utm_source=birdmarketing.co.uk&utm_medium=redirect&utm_campaign=domain_redirect"
+                                                                            postId="11503"
+                                                                            postTitle="Digital Marketing Agency UK"
+                                                                            csrfToken="ISSVjG0GSgAtzgs5uFklxkuAFxoJ3wHarYYD7opj"
+                                                                            placeholderText="Enter Website Address"
+                                                                            buttonText="GET MY FREE PROPOSAL"
+                                                                        />
+                                                                    </div>
+                                                                    <div className=" ">
+                                                                        <HeroForm variant="spacer-large" />
+                                                                    </div>
+                                                                    <div className="flex flex-wrap gap-8 items-center justify-start mt-8 animate-fade-in-up opacity-0" style={{ animationDelay: "0.5s" }}>
+                                                                        {[
+                                                                            { href: "https://www.trustpilot.com/review/birdmarketing.co.uk", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/trustpilot-reviews.png", rating: "4.9", count: "98" },
+                                                                            { href: "https://g.page/BirdAgency/", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/google-reviews.png", rating: "4.9", count: "64" },
+                                                                            { href: "https://www.goodfirms.co/company/bird-marketing", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/goodfirms-reviews-1.png", rating: "5", count: "60", isGoodFirms: true },
+                                                                            { href: "https://clutch.co/profile/bird-marketing", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/clutch-reviews-1.png", rating: "5", count: "65" }
+                                                                        ].map((badge, i) => (
+                                                                            <div key={i} className="flex flex-col items-start w-[140px]">
+                                                                                <a href={badge.href} className="group transition-opacity hover:opacity-80">
+                                                                                    <img src={badge.img} alt="" className="h-8 w-auto mb-2 object-contain" />
+                                                                                    <div className="text-sm font-bold text-white">
+                                                                                        {badge.rating}/5 <span className="font-normal text-gray-400 text-xs">({badge.count} Reviews)</span>
                                                                                     </div>
-                                                                                ))}
+                                                                                </a>
                                                                             </div>
-                                                                        </div>
+                                                                        ))}
                                                                     </div>
                                                                 </div>
-                                                                <div className="relative items-stretch   hidden flex-wrap min-h-0 min-w-0 w-full bg-center px-[25px] md:flex md:flex-nowrap md:min-h-[auto] md:min-w-[auto] md:w-6/12">
-                                                                    <HeroImage />
-                                                                </div>
                                                             </div>
+                                                        </div>
+                                                        <div className="relative items-stretch   hidden flex-wrap min-h-0 min-w-0 w-full bg-center px-[25px] md:flex md:flex-nowrap md:min-h-[auto] md:min-w-[auto] md:w-6/12">
+                                                            <HeroImage />
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="relative   pt-[18.75px] md:pt-16">
-                                        <div className="absolute   h-full w-full left-0 top-0">
-                                            <div className="absolute   h-full w-full z-[1] overflow-hidden left-0 top-0">
-                                                <div className="absolute bg-cover   h-full w-full left-0 top-0"></div>
-                                            </div>
+                                </div>
+                                <div className="relative   pt-[18.75px] md:pt-16">
+                                    <div className="absolute   h-full w-full left-0 top-0">
+                                        <div className="absolute   h-full w-full z-[1] overflow-hidden left-0 top-0">
+                                            <div className="absolute bg-cover   h-full w-full left-0 top-0"></div>
                                         </div>
-                                        <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-                                            <div className="relative   w-full bg-center px-[25px]">
-                                                <LogoCarousel />
-                                            </div>
+                                    </div>
+                                    <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10">
+                                        <div className="relative   w-full bg-center px-[25px]">
+                                            <LogoCarousel />
                                         </div>
                                     </div>
                                 </div>
