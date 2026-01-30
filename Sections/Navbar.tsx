@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export const Navbar = () => {
     const MENU_LINKS = [
         { label: "About", href: "/about/" },
@@ -13,15 +17,16 @@ export const Navbar = () => {
         <header className="fixed top-0 left-0 w-full bg-black/90 backdrop-blur-md z-[9999] h-20 flex items-center">
             <div className="w-full px-6 md:px-10 h-full flex items-center justify-between">
                 {/* NavbarLogo */}
-                <div className="flex items-center h-full">
-                    <a href="/" className="flex items-center py-4">
-                        <img
-                            alt="Bird Marketing"
-                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/bird-white-02-1.svg"
-                            className="h-8 md:h-10 w-auto"
-                        />
-                    </a>
-                </div>
+                <motion.a
+                    href="/"
+                    className="text-black items-center  flex grow justify-center min-h-[auto] min-w-[auto] text-center ml-[30px] mr-[82px] py-1.5 md:py-2.5 rounded-[10px] md:[align-items:normal] md:block md:grow-0 md:justify-normal md:min-h-0 md:min-w-0 md:text-left md:mx-0 hover:shadow-lg transition-shadow duration-300"
+                >
+                    <img
+                        src="/logo.webp"
+                        alt="The Digibazzar"
+                        className="aspect-[399/213] block max-h-[50px] md:max-h-16 w-auto min-h-[auto] min-w-[auto] text-center mx-0 md:inline md:min-h-0 md:min-w-0 md:text-left md:mx-4"
+                    />
+                </motion.a>
 
                 {/* DesktopMenu */}
                 <nav className="hidden md:flex items-center">

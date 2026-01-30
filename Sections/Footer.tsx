@@ -1,3 +1,7 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export type FooterProps = {
     variant?: string;
     logoUrl?: string;
@@ -54,13 +58,16 @@ export const Footer = (_props: FooterProps) => {
                 <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mb-16">
                     {/* Column 1: Branding & CTA */}
                     <div className="flex flex-col space-y-6">
-                        <div className="w-32">
+                        <motion.a
+                            href="/"
+                            className="text-black items-center bg-black flex grow justify-center min-h-[auto] min-w-[auto] text-center ml-[30px] mr-[82px] py-1.5 md:py-2.5 rounded-[10px] md:[align-items:normal] md:block md:grow-0 md:justify-normal md:min-h-0 md:min-w-0 md:text-left md:mx-0 hover:shadow-lg transition-shadow duration-300"
+                        >
                             <img
-                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/bird-white-02-1.svg"
-                                alt="Bird Marketing Logo"
-                                className="w-full h-auto"
+                                src="/logo.webp"
+                                alt="The Digibazzar"
+                                className="aspect-[399/213] block max-h-[50px] md:max-h-16 w-auto min-h-[auto] min-w-[auto] text-center mx-0 md:inline md:min-h-0 md:min-w-0 md:text-left md:mx-4"
                             />
-                        </div>
+                        </motion.a>
                         <p className="text-gray-300 leading-relaxed text-sm">
                             A multi award winning digital agency based in the United Kingdom. With a distinct offering in Technical Web, Digital Marketing and Creative.
                         </p>
