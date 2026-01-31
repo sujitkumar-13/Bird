@@ -28,9 +28,6 @@ export const Press = () => {
 
             {/* Marquee Container */}
             <div className="relative w-full overflow-hidden">
-                {/* Gradient Masks */}
-                <div className="absolute left-0 top-0 bottom-0 w-20 md:w-32 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none"></div>
-                <div className="absolute right-0 top-0 bottom-0 w-20 md:w-32 bg-gradient-to-l from-white to-transparent z-10 pointer-events-none"></div>
 
                 {/* Marquee Track */}
                 <div className="flex items-center gap-12 md:gap-24 animate-marquee w-max py-4">
@@ -40,7 +37,7 @@ export const Press = () => {
                             <img
                                 src={`https://c.animaapp.com/mkz11li0RsXIrT/assets/${src}`}
                                 alt="Press Logo"
-                                className="h-8 md:h-10 w-auto object-contain"
+                                className="h-8 md:h-20 w-auto object-contain"
                             />
                         </div>
                     ))}

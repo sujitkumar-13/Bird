@@ -24,18 +24,16 @@ export const Contact = () => {
                             aim to get back to all enquiries rapidly.
                         </p>
                         <div className="flex flex-col gap-4">
-                            <a
-                                href="/contact/"
+                            <p
                                 className="text-4xl md:text-5xl font-bold border-b-2 border-white/30 hover:border-yellow-400 pb-2 inline-block w-max transition-colors"
                             >
                                 Start a project
-                            </a>
-                            <a
-                                href="/quote/"
+                            </p>
+                            <p
                                 className="text-sm font-bold uppercase tracking-widest text-gray-500 hover:text-white transition-colors mt-4"
                             >
                                 Request a Quote &rarr;
-                            </a>
+                            </p>
                         </div>
                     </div>
                 </div>

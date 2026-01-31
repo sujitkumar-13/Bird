@@ -150,120 +150,92 @@ export const Hero = () => {
                 role="main"
                 className="relative  w-auto mx-auto px-0 md:max-w-[2000px] md:w-full"
             >
-                <div className="relative  ">
-                    <div className="absolute   h-full w-full left-0 top-0">
-                        <div className="absolute   h-full w-full z-[1] overflow-hidden left-0 top-0">
-                            <div className="absolute bg-cover   h-full w-full left-0 top-0"></div>
-                        </div>
-                    </div>
-                    <div className="relative   flex flex-wrap  z-10">
-                        <div className="relative   w-full bg-center ">
-                            <div className="relative  ">
-                                <div className="relative bg-cover  w-full py-[15%] md:py-16">
-                                    <div className="absolute inset-0 w-full h-full left-0 top-0">
-                                        <div className="absolute h-full w-full z-[1] overflow-hidden left-0 top-0">
-                                            <div className="absolute bg-black bg-cover h-full w-full left-0 top-0"></div>
-                                        </div>
-                                    </div>
-                                    <div className="absolute h-[2%] w-full z-[3] left-0 bottom-0">
-                                        <img
-                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-4.svg"
-                                            alt="Icon"
-                                            className="absolute   h-full w-full left-0 -bottom-px"
-                                        />
-                                    </div>
-                                    <div className="relative flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-                                        <div className="relative w-full bg-center px-[25px] mt-[15px]">
-                                            <div className="relative pb-5">
-                                                <div className="relative pt-5 md:pt-0">
-                                                    <div className="absolute   h-full w-full left-0 top-0">
-                                                        <div className="absolute bg-cover   h-full w-full left-0 top-0"></div>
-                                                    </div>
-                                                    <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10 ">
-                                                        <div className="relative items-stretch flex flex-wrap w-full bg-center mb-[25px] px-[25px] md:flex-nowrap md:w-6/12 md:mb-0">
-                                                            <div className="relative flex flex-col grow justify-center w-full md:pl-20">
-                                                                <div className="  min-h-px">
-                                                                    <HeroForm variant="top-rated" />
-                                                                    <HeroForm
-                                                                        variant="heading"
-                                                                        mainHeading="Digital Marketing Agency in India"
-                                                                        subHeading="That "
-                                                                        emphasizedText="Delivers Results"
-                                                                        iconUrl="https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-5.svg"
-                                                                    />
-                                                                    <HeroForm variant="spacer-small" />
-                                                                    <div className="  mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: "0.3s" }}>
-                                                                        Accelerate your business growth with
-                                                                        our multi award-winning, Full Service
-                                                                        Digital Marketing Agency in UK,
-                                                                        offering a broad spectrum of tailored
-                                                                        digital solutions. With headquarters
-                                                                        in the UK and branches worldwide, our
-                                                                        proven expertise ensures you outpace
-                                                                        the competition and achieve measurable
-                                                                        success.
+                <div className="relative   flex flex-wrap  z-10">
+                    <div className="relative   w-full bg-center ">
+                        <div className="relative bg-cover  w-full py-[15%] md:py-16">
+                            <div className="absolute h-[2%] w-full z-[3] left-0 bottom-0">
+                                <img
+                                    src="https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-4.svg"
+                                    alt="Icon"
+                                    className="absolute   h-full w-full left-0 -bottom-px"
+                                />
+                            </div>
+                            <div className="relative flex flex-wrap  z-10">
+                                <div className="relative w-full bg-center px-[25px] mt-[15px]">
+                                    <div className="relative pb-5">
+                                        <div className="relative pt-5 md:pt-0">
+                                            <div className="relative   flex flex-wrap  z-10 ">
+                                                <div className="relative items-stretch flex flex-wrap w-full bg-center mb-[25px] px-[25px] md:flex-nowrap md:w-6/12 md:mb-0">
+                                                    <div className="relative flex flex-col grow justify-center w-full md:pl-20">
+                                                        <div className="  min-h-px">
+                                                            <HeroForm variant="top-rated" />
+                                                            <HeroForm
+                                                                variant="heading"
+                                                                mainHeading="Digital Marketing Agency in India"
+                                                                subHeading="That "
+                                                                emphasizedText="Delivers Results"
+                                                                iconUrl="https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-5.svg"
+                                                            />
+                                                            <HeroForm variant="spacer-small" />
+                                                            <div className="  mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: "0.3s" }}>
+                                                                Accelerate your business growth with
+                                                                our multi award-winning, Full Service
+                                                                Digital Marketing Agency in UK,
+                                                                offering a broad spectrum of tailored
+                                                                digital solutions. With headquarters
+                                                                in the UK and branches worldwide, our
+                                                                proven expertise ensures you outpace
+                                                                the competition and achieve measurable
+                                                                success.
+                                                            </div>
+                                                            <div className="  mt-[5px] mb-6">
+                                                                <HeroForm
+                                                                    variant="form"
+                                                                    formId="11"
+                                                                    formUid="93bc79"
+                                                                    formUrl="/?utm_source=birdmarketing.co.uk&utm_medium=redirect&utm_campaign=domain_redirect"
+                                                                    postId="11503"
+                                                                    postTitle="Digital Marketing Agency UK"
+                                                                    csrfToken="ISSVjG0GSgAtzgs5uFklxkuAFxoJ3wHarYYD7opj"
+                                                                    placeholderText="Enter Website Address"
+                                                                    buttonText="GET MY FREE PROPOSAL"
+                                                                />
+                                                            </div>
+                                                            <div className=" ">
+                                                                <HeroForm variant="spacer-large" />
+                                                            </div>
+                                                            <div className="flex flex-wrap gap-8 items-center justify-start mt-8 animate-fade-in-up opacity-0" style={{ animationDelay: "0.5s" }}>
+                                                                {[
+                                                                    { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/trustpilot-reviews.png", rating: "4.9", count: "98" },
+                                                                    { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/google-reviews.png", rating: "4.9", count: "64" },
+                                                                    { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/goodfirms-reviews-1.png", rating: "5", count: "60", isGoodFirms: true },
+                                                                    { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/clutch-reviews-1.png", rating: "5", count: "65" }
+                                                                ].map((badge, i) => (
+                                                                    <div key={i} className="flex flex-col items-start w-[140px]">
+                                                                        <img src={badge.img} alt="" className="h-8 w-auto mb-2 object-contain" />
+                                                                        <div className="text-sm font-bold text-white">
+                                                                            {badge.rating}/5 <span className="font-normal text-gray-400 text-xs">({badge.count} Reviews)</span>
+                                                                        </div>
                                                                     </div>
-                                                                    <div className="  mt-[5px] mb-6">
-                                                                        <HeroForm
-                                                                            variant="form"
-                                                                            formId="11"
-                                                                            formUid="93bc79"
-                                                                            formUrl="/?utm_source=birdmarketing.co.uk&utm_medium=redirect&utm_campaign=domain_redirect"
-                                                                            postId="11503"
-                                                                            postTitle="Digital Marketing Agency UK"
-                                                                            csrfToken="ISSVjG0GSgAtzgs5uFklxkuAFxoJ3wHarYYD7opj"
-                                                                            placeholderText="Enter Website Address"
-                                                                            buttonText="GET MY FREE PROPOSAL"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <HeroForm variant="spacer-large" />
-                                                                    </div>
-                                                                    <div className="flex flex-wrap gap-8 items-center justify-start mt-8 animate-fade-in-up opacity-0" style={{ animationDelay: "0.5s" }}>
-                                                                        {[
-                                                                            { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/trustpilot-reviews.png", rating: "4.9", count: "98" },
-                                                                            { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/google-reviews.png", rating: "4.9", count: "64" },
-                                                                            { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/goodfirms-reviews-1.png", rating: "5", count: "60", isGoodFirms: true },
-                                                                            { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/clutch-reviews-1.png", rating: "5", count: "65" }
-                                                                        ].map((badge, i) => (
-                                                                            <div key={i} className="flex flex-col items-start w-[140px]">
-                                                                                <img src={badge.img} alt="" className="h-8 w-auto mb-2 object-contain" />
-                                                                                <div className="text-sm font-bold text-white">
-                                                                                    {badge.rating}/5 <span className="font-normal text-gray-400 text-xs">({badge.count} Reviews)</span>
-                                                                                </div>
-                                                                            </div>
-                                                                        ))}
-                                                                    </div>
-                                                                </div>
+                                                                ))}
                                                             </div>
                                                         </div>
-                                                        <div className="relative items-stretch   hidden flex-wrap min-h-0 min-w-0 w-full bg-center px-[25px] md:flex md:flex-nowrap md:min-h-[auto] md:min-w-[auto] md:w-6/12">
-                                                            <HeroImage />
-                                                        </div>
                                                     </div>
+                                                </div>
+                                                <div className="relative items-stretch   hidden flex-wrap min-h-0 min-w-0 w-full bg-center px-[25px] md:flex md:flex-nowrap md:min-h-[auto] md:min-w-[auto] md:w-6/12">
+                                                    <HeroImage />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="relative   pt-[18.75px] md:pt-16">
-                                    <div className="absolute   h-full w-full left-0 top-0">
-                                        <div className="absolute   h-full w-full z-[1] overflow-hidden left-0 top-0">
-                                            <div className="absolute bg-cover   h-full w-full left-0 top-0"></div>
-                                        </div>
-                                    </div>
-                                    <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-                                        <div className="relative   w-full bg-center px-[25px]">
-                                            <LogoCarousel />
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+                        <LogoCarousel />
                     </div>
                 </div>
                 <Service />
-                <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10">
+                <div className="relative   flex flex-wrap  z-10">
                     <div className="relative   w-full bg-center px-[25px]">
                         <div className="relative bg-cover  w-full pt-[18.75px] pb-[50px] md:py-16">
                             <div className="absolute inset-0 w-full h-full left-0 top-0">
@@ -271,134 +243,108 @@ export const Hero = () => {
                                     <div className="absolute bg-neutral-100 bg-cover   h-full w-full left-0 top-0"></div>
                                 </div>
                             </div>
-                            <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10 px-[50px] md:px-0">
+                            <div className="relative   flex flex-wrap  z-10 px-[50px] md:px-0">
                                 <div className="relative text-black   w-full bg-center px-[25px]">
                                     <div className="relative  ">
+                                        <div className="relative   mb-[50px]">
+                                            <div className="relative   flex flex-wrap  z-10">
+                                                <div className="relative   w-full bg-center mb-[25px] px-[25px] md:w-6/12 md:mb-0">
+                                                    <div className="relative  ">
+                                                        <div className="  mb-6">
+                                                            <h3 className="text-[19.2px] font-bold   tracking-[0.192px] leading-6 md:text-[27.2px] md:tracking-[0.272px] md:leading-[34px]">
+                                                                <span className="text-[19.2px]   tracking-[0.192px] leading-6 md:text-[27.2px] md:tracking-[0.272px] md:leading-[34px]"></span>
+                                                                Recognised as a Leading Digital
+                                                                Marketing Agency UK Company
+                                                                <span className="text-[19.2px]   tracking-[0.192px] leading-6 md:text-[27.2px] md:tracking-[0.272px] md:leading-[34px]"></span>
+                                                            </h3>
+                                                        </div>
+                                                        <div className="  mb-6">
+                                                            <p className=" ">
+                                                                As a trusted Digital Marketing
+                                                                Agency UK Company, Bird has been
+                                                                featured in top-tier media and
+                                                                industry-leading platforms,
+                                                                showcasing our expertise in
+                                                                delivering exceptional digital
+                                                                marketing results.
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="relative  mb-[50px]">
+                                            <div className="relative   flex flex-wrap  z-10">
+                                                <div className="relative   w-full bg-center px-[25px]">
+                                                    <div className="relative  ">
+                                                        <div className="  gap-x-[30px] grid grid-cols-[repeat(2,1fr)] gap-y-0 overflow-hidden md:grid-cols-[repeat(5,1fr)]">
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/Godaddy-logo-1.png"
+                                                                alt="Godaddy -  27 website design strategies that drive user engagement"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/business-matters.png"
+                                                                alt="Business Matters -  New london premises are the order of the day for award-winning digital marketing agency"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/tech-times.png"
+                                                                alt="Tech Times -  The Complete Business Package"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/digital-journal.png"
+                                                                alt="Digital Journal -  Bird Marketing Announces Expansion into New Markets in the USA   Read more: https://www.digitaljournal.com/pr/news/newsfile/bird-marketing-announces-expansion-new-1870456790.html#ixzz8saRI2ZQq"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/cloudways.png"
+                                                                alt="Cloudways -  Best Digital Marketing Agencies Winning Projects Around The World"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/teamwork.png"
+                                                                alt="Teamwork -  Pay-per-click companies who won't blow your ad spend (+ tips for managing your own PPC campaigns)"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/influencer-marketing-hub.png"
+                                                                alt="Influencer Marketing Hub -  Top Digital Marketing Agencies in the UK"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/msn.png"
+                                                                alt="MSN -  Bird Marketing Announces Expansion Into New Markets in The USA"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/ahrefs.png"
+                                                                alt="Ahrefs -  How Do You Explain the Value of SEO? I Asked 100 Experts"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                            <img
+                                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/yahoo-finance.png"
+                                                                alt="Yahoo Finance -  Bird Marketing Announces Expansion into New Markets in the USA"
+                                                                className="  max-w-[200px] mx-auto"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div className=" ">
-                                            <div className="relative   mb-[50px]">
-                                                <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-                                                    <div className="relative   w-full bg-center mb-[25px] px-[25px] md:w-6/12 md:mb-0">
-                                                        <div className="relative  ">
-                                                            <div className=" ">
-                                                                <div className="  mb-6">
-                                                                    <h3 className="text-[19.2px] font-bold   tracking-[0.192px] leading-6 md:text-[27.2px] md:tracking-[0.272px] md:leading-[34px]">
-                                                                        <span className="text-[19.2px]   tracking-[0.192px] leading-6 md:text-[27.2px] md:tracking-[0.272px] md:leading-[34px]"></span>
-                                                                        Recognised as a Leading Digital
-                                                                        Marketing Agency UK Company
-                                                                        <span className="text-[19.2px]   tracking-[0.192px] leading-6 md:text-[27.2px] md:tracking-[0.272px] md:leading-[34px]"></span>
-                                                                    </h3>
-                                                                </div>
-                                                                <div className="  mb-6">
-                                                                    <p className=" ">
-                                                                        As a trusted Digital Marketing
-                                                                        Agency UK Company, Bird has been
-                                                                        featured in top-tier media and
-                                                                        industry-leading platforms,
-                                                                        showcasing our expertise in
-                                                                        delivering exceptional digital
-                                                                        marketing results.
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className="relative  mb-[50px]">
-                                                <div className="relative   flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-                                                    <div className="relative   w-full bg-center px-[25px]">
-                                                        <div className="relative  ">
-                                                            <div className=" ">
-                                                                <div className="  gap-x-[30px] grid grid-cols-[repeat(2,1fr)] gap-y-0 overflow-hidden md:grid-cols-[repeat(5,1fr)]">
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/Godaddy-logo-1.png"
-                                                                            alt="Godaddy -  27 website design strategies that drive user engagement"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/business-matters.png"
-                                                                            alt="Business Matters -  New london premises are the order of the day for award-winning digital marketing agency"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/tech-times.png"
-                                                                            alt="Tech Times -  The Complete Business Package"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/digital-journal.png"
-                                                                            alt="Digital Journal -  Bird Marketing Announces Expansion into New Markets in the USA   Read more: https://www.digitaljournal.com/pr/news/newsfile/bird-marketing-announces-expansion-new-1870456790.html#ixzz8saRI2ZQq"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/cloudways.png"
-                                                                            alt="Cloudways -  Best Digital Marketing Agencies Winning Projects Around The World"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/teamwork.png"
-                                                                            alt="Teamwork -  Pay-per-click companies who won't blow your ad spend (+ tips for managing your own PPC campaigns)"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/influencer-marketing-hub.png"
-                                                                            alt="Influencer Marketing Hub -  Top Digital Marketing Agencies in the UK"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/msn.png"
-                                                                            alt="MSN -  Bird Marketing Announces Expansion Into New Markets in The USA"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/ahrefs.png"
-                                                                            alt="Ahrefs -  How Do You Explain the Value of SEO? I Asked 100 Experts"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                    <div className=" ">
-                                                                        <img
-                                                                            src="https://c.animaapp.com/mkz11li0RsXIrT/assets/yahoo-finance.png"
-                                                                            alt="Yahoo Finance -  Bird Marketing Announces Expansion into New Markets in the USA"
-                                                                            className="  max-w-[200px] mx-auto"
-                                                                        />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div className=" ">
-                                                <p className="  text-center">
-                                                    <i className="relative text-[25px] font-normal   inline-block h-[13px] leading-[15px] max-w-full align-middle w-[15px] mr-[15px] -top-0.5 font-fontawesome"></i>
-                                                    Endorsed by{" "}
-                                                    <strong className="font-bold  ">
-                                                        10+ Global Media Outlets
-                                                    </strong>
-                                                    for Exceptional{" "}
-                                                    <strong className="font-bold  ">
-                                                        Digital Marketing Agency UK Results
-                                                    </strong>
-                                                </p>
-                                            </div>
+                                            <p className="  text-center">
+                                                <i className="relative text-[25px] font-normal   inline-block h-[13px] leading-[15px] max-w-full align-middle w-[15px]  -top-0.5 font-fontawesome"></i>
+                                                Endorsed by{" "}
+                                                <strong className="font-bold  ">
+                                                    10+ Global Media Outlets
+                                                </strong>
+                                                for Exceptional{" "}
+                                                <strong className="font-bold  ">
+                                                    Digital Marketing Agency UK Results
+                                                </strong>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

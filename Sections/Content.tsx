@@ -1,19 +1,11 @@
 export const Content = () => {
     return (
         <div className="relative bg-cover  w-full py-[50px] md:py-[125px] ">
-            <div className="absolute   h-full w-full left-0 top-0">
-                <div className="absolute   h-full w-full z-[1] overflow-hidden left-0 top-0">
-                    <div className="absolute bg-cover   h-full w-full left-0 top-0"></div>
-                </div>
-            </div>
             <div className="relative   flex flex-wrap z-10 px-[50px] md:px-[102.4px]">
                 <div className="relative items-stretch bg-cover   flex flex-wrap text-left w-full bg-center md:flex-nowrap md:text-start md:w-6/12">
                     <div className="relative   flex flex-col grow text-left w-full md:text-start">
                         <div className="  min-h-full text-left md:text-start">
                             <div className="relative   text-left md:text-start ">
-                                <div className="absolute   h-full text-left w-full left-0 top-0 md:text-start">
-                                    <div className="absolute bg-cover   h-full text-left w-full left-0 top-0 md:text-start"></div>
-                                </div>
                                 <div className="relative   flex flex-wrap text-left z-10 md:text-start">
                                     <div className="relative bg-cover   text-left w-full bg-center md:text-start">
                                         <div className="relative   text-left md:text-start">
@@ -65,16 +57,12 @@ export const Content = () => {
                         <div className="  min-h-full">
                             <div className="  leading-[0px]">
                                 <div className="  h-full">
-                                    <div className="relative  ">
-                                        <div className=" ">
-                                            <img
-                                                src="https://c.animaapp.com/mkz11li0RsXIrT/assets/Basic-Image-1-9.png"
-                                                alt=""
-                                                sizes="(max-width: 1920px) 100vw, 1920px"
-                                                className="relative aspect-[auto_1920_/_1079]   max-w-full min-h-px min-w-px w-[1920px]"
-                                            />
-                                        </div>
-                                    </div>
+                                    <img
+                                        src="https://c.animaapp.com/mkz11li0RsXIrT/assets/Basic-Image-1-9.png"
+                                        alt=""
+                                        sizes="(max-width: 1920px) 100vw, 1920px"
+                                        className="relative aspect-[auto_1920_/_1079]   max-w-full min-h-px min-w-px w-[1920px]"
+                                    />
                                 </div>
                             </div>
                         </div>
