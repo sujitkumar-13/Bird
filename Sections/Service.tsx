@@ -117,8 +117,8 @@ export const Service = () => {
                     <div className="absolute bg-cover h-full w-full left-0 top-0"></div>
                 </div>
             </div>
-            <div className="relative flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-                <div className="relative w-full bg-center px-[25px]">
+            <div className="relative flex flex-wrap z-10">
+                <div className="relative w-full bg-center max-w-[1800px] mx-auto border">
                     <h2 className="text-[26.4px] font-bold tracking-[-0.264px] leading-[33px] mb-[7px] md:text-[40.8px] md:tracking-[-0.408px] md:leading-[51px]">
                         Digital Marketing Services
                     </h2>
@@ -126,7 +126,7 @@ export const Service = () => {
                         In the highly competitive online market, building a digital strategy is crucial to cultivating successful, revenue-driving brand engagements. Bird, a leading award-winning digital marketing agency in the UK, can harness the power of data-driven campaigns and multi-channel outreach to elevate your brand’s presence across the web. Our team of savvy marketing professionals, adept in cutting-edge organic search, social media, and paid advertising, works diligently to refine your brand message, expand reach, and drive measurable growth. By leveraging targeted digital strategies, refining customer journeys, and executing creative campaigns, we empower your brand to rise above the digital noise.
                     </p>
 
-                    <div className="mt-[50px] mb-[60px]">
+                    <div className="mt-[50px] mb-[60px]  ">
                         <div className="grid grid-cols-1 md:grid-cols-3">
                             {services.map((service, index) => {
                                 const isLastInRow = (index + 1) % 3 === 0;
