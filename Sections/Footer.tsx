@@ -46,9 +46,9 @@ export const Footer = ({ className }: FooterProps) => {
                             className="flex items-center"
                         >
                             <img
-                                src="/logo.webp"
+                                src="/icon.png"
                                 alt="The Digibazzar"
-                                className="aspect-[399/213] block max-h-16 w-auto"
+                                className="block max-h-10 w-auto"
                             />
                         </motion.a>
                         <p className="text-gray-400 leading-relaxed text-sm max-w-xs mx-auto sm:mx-0">

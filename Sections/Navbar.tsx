@@ -47,9 +47,9 @@ export const Navbar = () => {
                 >
                     <div className="flex flex-col items-center">
                         <img
-                            src="/logo.webp"
+                            src="/icon.png"
                             alt="Digibazzar"
-                            className="aspect-[399/213] block max-h-12 w-auto text-center mx-0 md:inline md:min-h-0 md:min-w-0 md:text-left md:mx-4"
+                            className="block max-h-12 w-auto text-center mx-0 md:inline md:min-h-0 md:min-w-0 md:text-left md:mx-4"
                         />
                     </div>
                 </motion.a>

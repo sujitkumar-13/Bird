@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "The Digibazzar - Best Digital Marketing Agency in Varanasi",
   description: "Get noticed in the digital world with The DIGIBAZZAR – Best Digital Marketing Agency in Varanasi. Expert SEO, Social Media, and Web Development.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
