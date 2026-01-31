@@ -7,9 +7,9 @@ export const Navbar = () => {
         { label: "Home", href: "/" },
         { label: "About", href: "/" },
         { label: "Services", subMenu: true },
-        // { label: "Industries", subMenu: true },
-        // { label: "Case Studies", href: "/case-studies/" },
-        // { label: "Careers", href: "/careers/" },
+        { label: "Industries", subMenu: true },
+        { label: "Case Studies", href: "/case-studies/" },
+        { label: "Careers", href: "/careers/" },
         { label: "Blog", href: "/" },
         { label: "Contact", href: "/" },
     ];

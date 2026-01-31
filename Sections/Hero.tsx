@@ -145,7 +145,7 @@ export const HeroImage = () => {
 };
 export const Hero = () => {
     return (
-        <div className="relative bg-black grow z-[11] md:z-10 overflow-hidden">
+        <div className="relative bg-black grow z-[11] md:z-10">
             <div
                 role="main"
                 className="relative  w-auto mx-auto px-0 md:max-w-[2000px] md:w-full"

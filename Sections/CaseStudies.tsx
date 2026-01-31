@@ -35,40 +35,38 @@ export const CaseStudies = (props: CaseStudiesSectionProps) => {
                 <div className="absolute bg-white   content-['_'] h-full opacity-50 w-full z-[3] left-0 top-0"></div>
             </div>
             <div className="relative   flex flex-wrap z-10 pl-[50px] md:pl-[102.4px]">
-                <div className="relative text-black items-stretch bg-cover   flex flex-wrap w-full bg-center mb-[75px] md:flex-nowrap md:w-6/12 md:mb-0">
-                    <div className="  w-full">
-                        <div className="relative   pr-[50px] top-auto md:sticky md:pr-[102.4px] md:top-[280.25px]">
-                            <div className="  mb-6">
-                                <h6 className="text-xs tracking-[0.36px] leading-7 mb-[7px] md:text-base md:tracking-[0.48px] md:leading-[17.6px]">
-                                    <em className="relative text-xs bg-[linear-gradient(to_right,rgb(0,0,0)_0px,rgb(0,0,0)_100%)] bg-no-repeat bg-size-[100%_1px] tracking-[0.36px] leading-7 uppercase bg-[position:left_90%] pb-0.5 md:text-base md:tracking-[0.48px] md:leading-[17.6px]">
-                                        OUR WORKS
-                                    </em>
-                                    <span className="text-amber-300 text-[45px] tracking-[0.36px] leading-7 md:tracking-[0.48px] md:leading-[17.6px]">
-                                        .
-                                    </span>
-                                </h6>
-                            </div>
-                            <div className="  mb-6">
-                                <h2 className="text-[26.4px] font-bold tracking-[-0.264px] leading-[33px] mb-[7px] md:text-[61px] md:tracking-[-0.61px] md:leading-[67.1px]">
-                                    Case Studies, a selection of{" "}
-                                    <em className="relative text-[26.4px] bg-[linear-gradient(to_right,rgb(255,215,75)_0px,rgb(255,215,75)_100%)] bg-no-repeat bg-size-[100%_80%] tracking-[-0.264px] leading-[33px] bg-[position:left_70%] px-[3px] md:text-[61px] md:tracking-[-0.61px] md:leading-[67.1px]">
-                                        successful projects.
-                                    </em>
-                                </h2>
-                            </div>
-                            <div className="  inline-block mb-6">
-                                <p className="text-lg   leading-[30.6px] md:text-[12.8px] md:leading-[21.76px]">
-                                    We always put our clients first to deliver our best
-                                    time after time. Below is some of our proudest work.
-                                </p>
-                            </div>
-                            <div className="  text-left">
-                                <h6 className="text-2xl tracking-[0.72px] leading-7">
-                                    <span className="relative rounded-bl rounded-br rounded-tl rounded-tr">
-                                        View all Case Studies
-                                    </span>
-                                </h6>
-                            </div>
+                <div className="relative text-black w-full mb-[75px] md:w-6/12 md:mb-0">
+                    <div className="relative pr-[50px] top-auto md:sticky md:pr-[102.4px] md:top-[150px]">
+                        <div className="  mb-6">
+                            <h6 className="text-xs tracking-[0.36px] leading-7 mb-[7px] md:text-base md:tracking-[0.48px] md:leading-[17.6px]">
+                                <em className="relative text-xs bg-[linear-gradient(to_right,rgb(0,0,0)_0px,rgb(0,0,0)_100%)] bg-no-repeat bg-size-[100%_1px] tracking-[0.36px] leading-7 uppercase bg-[position:left_90%] pb-0.5 md:text-base md:tracking-[0.48px] md:leading-[17.6px]">
+                                    OUR WORKS
+                                </em>
+                                <span className="text-amber-300 text-[45px] tracking-[0.36px] leading-7 md:tracking-[0.48px] md:leading-[17.6px]">
+                                    .
+                                </span>
+                            </h6>
+                        </div>
+                        <div className="  mb-6">
+                            <h2 className="text-[26.4px] font-bold tracking-[-0.264px] leading-[33px] mb-[7px] md:text-[61px] md:tracking-[-0.61px] md:leading-[67.1px]">
+                                Case Studies, a selection of{" "}
+                                <em className="relative text-[26.4px] bg-[linear-gradient(to_right,rgb(255,215,75)_0px,rgb(255,215,75)_100%)] bg-no-repeat bg-size-[100%_80%] tracking-[-0.264px] leading-[33px] bg-[position:left_70%] px-[3px] md:text-[61px] md:tracking-[-0.61px] md:leading-[67.1px]">
+                                    successful projects.
+                                </em>
+                            </h2>
+                        </div>
+                        <div className="  inline-block mb-6">
+                            <p className="text-lg   leading-[30.6px] md:text-[12.8px] md:leading-[21.76px]">
+                                We always put our clients first to deliver our best
+                                time after time. Below is some of our proudest work.
+                            </p>
+                        </div>
+                        <div className="  text-left">
+                            <h6 className="text-2xl tracking-[0.72px] leading-7">
+                                <span className="relative rounded-bl rounded-br rounded-tl rounded-tr">
+                                    View all Case Studies
+                                </span>
+                            </h6>
                         </div>
                     </div>
                 </div>
