@@ -1,7 +1,7 @@
 import { Navbar } from "../Sections/Navbar";
 import { Hero } from "../Sections/Hero";
 import { Footer } from "../Sections/Footer";
-import { ChatWidget } from "../components/ChatWidget";
+import WhatsAppFloatingButton from "@/components/WhatsAppFloatingButton";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Footer />
-      <ChatWidget />
+      <WhatsAppFloatingButton />
     </main>
   );
 }
