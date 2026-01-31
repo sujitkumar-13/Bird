@@ -14,64 +14,60 @@ const INDUSTRIES = [
 
 export const Industries = () => {
     return (
-        <div className={`relative  py-[18.75px] md:py-16 px-[25px]`}>
-            <div className="relative  flex flex-wrap  z-10">
-                <div className="relative  w-full bg-center px-[25px]">
-                    <div className={`relative  mb-[50px] pb-[1%]`}>
-                        <div className="relative  flex flex-wrap  z-10">
-                            <div className="">
-                                <h2 className="text-[26.4px] font-bold tracking-[-0.264px] leading-[33px] mb-[7px] md:text-[40.8px] md:tracking-[-0.408px] md:leading-[51px]">
-                                    Industries We Work With
-                                </h2>
-                                <p className=" ">
-                                    At Digibazzar, we extend our Digital
-                                    Marketing Agency in Varanasi expertise
-                                    across a diverse range of
-                                    industries, tailoring strategies
-                                    to meet the unique demands and
-                                    opportunities each sector
-                                    presents.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className=" gap-x-[30px] grid grid-cols-[repeat(1,1fr)] gap-y-[30px] md:grid-cols-[repeat(5,1fr)]">
-                        {INDUSTRIES.map(([label, href, iconNum], index) => {
-                            const content = (
-                                <div className="flex items-center">
+        <section className="relative w-full py-12 md:py-20 lg:py-24">
+            <div className="mx-auto px-6 md:px-12 lg:px-20">
+                <div className="mb-12 md:mb-16 text-center md:text-left">
+                    <h2 className="text-3xl md:text-[40.8px] font-bold tracking-tight md:tracking-[-0.408px] leading-tight md:leading-[51px] mb-4">
+                        Industries We Work With
+                    </h2>
+                    <p className="max-w-3xl text-sm md:text-base text-white/80 leading-relaxed mx-auto md:mx-0">
+                        At Digibazzar, we extend our Digital
+                        Marketing Agency in Varanasi expertise
+                        across a diverse range of
+                        industries, tailoring strategies
+                        to meet the unique demands and
+                        opportunities each sector
+                        presents.
+                    </p>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 md:gap-8 lg:gap-10">
+                    {INDUSTRIES.map(([label, href, iconNum], index) => {
+                        const content = (
+                            <div className="flex items-center group">
+                                <div className="flex-shrink-0 bg-white/5 p-2 rounded-lg group-hover:bg-amber-400/20 transition-colors">
                                     <img
                                         src={`https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-${iconNum}.svg`}
-                                        alt="Icon"
-                                        className="h-10 w-10 mr-[15px]"
+                                        alt={`${label} icon`}
+                                        className="h-8 w-8 md:h-10 md:w-10"
                                     />
-                                    <h3 className={`font-bold tracking-[0.14px] leading-6 md:leading-[34px] ${href ? "text-white" : "text-sm"}`}>
-                                        {label} Digital Marketing
-                                    </h3>
                                 </div>
-                            );
+                                <h3 className={`ml-4 font-bold tracking-tight text-sm md:text-base leading-snug transition-colors ${href ? "text-white group-hover:text-amber-400" : "text-white/60"}`}>
+                                    {label} Digital Marketing
+                                </h3>
+                            </div>
+                        );
 
-                            if (href) {
-                                return (
-                                    <a
-                                        key={index}
-                                        href={href as string}
-                                        className="text-amber-300 text-sm items-center  flex"
-                                    >
-                                        {content}
-                                    </a>
-                                );
-                            }
-
+                        if (href) {
                             return (
-                                <div key={index} className="flex">
+                                <a
+                                    key={index}
+                                    href={href as string}
+                                    className="block"
+                                >
                                     {content}
-                                </div>
+                                </a>
                             );
-                        })}
-                    </div>
+                        }
 
+                        return (
+                            <div key={index} className="block">
+                                {content}
+                            </div>
+                        );
+                    })}
                 </div>
             </div>
-        </div >
+        </section>
     );
 };

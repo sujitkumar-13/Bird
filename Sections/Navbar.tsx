@@ -10,7 +10,7 @@ export const Navbar = () => {
         { label: "Home", href: "/" },
         { label: "About", href: "/" },
         { label: "Services", subMenu: true },
-        { label: "Industries", subMenu: true },
+        // { label: "Industries", subMenu: true },
         { label: "Case Studies", href: "/case-studies/" },
         { label: "Careers", href: "/careers/" },
         { label: "Blog", href: "/" },
@@ -105,7 +105,7 @@ export const Navbar = () => {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 0.2 }}
-                        className="fixed inset-0 bg-black z-40 md:hidden flex flex-col "
+                        className="fixed inset-0 bg-black z-40 md:hidden flex flex-col pt-10"
                     >
                         <div className="flex-grow flex flex-col items-center justify-center space-y-4 px-10 text-center">
                             {MENU_LINKS.map(({ label, href }, idx) => (
