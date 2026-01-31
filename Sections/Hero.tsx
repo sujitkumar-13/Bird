@@ -186,7 +186,7 @@ export const Hero = () => {
                                                                     <HeroForm variant="top-rated" />
                                                                     <HeroForm
                                                                         variant="heading"
-                                                                        mainHeading="Digital Marketing Agency in UK"
+                                                                        mainHeading="Digital Marketing Agency in India"
                                                                         subHeading="That "
                                                                         emphasizedText="Delivers Results"
                                                                         iconUrl="https://c.animaapp.com/mkz11li0RsXIrT/assets/icon-5.svg"
@@ -221,18 +221,16 @@ export const Hero = () => {
                                                                     </div>
                                                                     <div className="flex flex-wrap gap-8 items-center justify-start mt-8 animate-fade-in-up opacity-0" style={{ animationDelay: "0.5s" }}>
                                                                         {[
-                                                                            { href: "https://www.trustpilot.com/review/birdmarketing.co.uk", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/trustpilot-reviews.png", rating: "4.9", count: "98" },
-                                                                            { href: "https://g.page/BirdAgency/", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/google-reviews.png", rating: "4.9", count: "64" },
-                                                                            { href: "https://www.goodfirms.co/company/bird-marketing", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/goodfirms-reviews-1.png", rating: "5", count: "60", isGoodFirms: true },
-                                                                            { href: "https://clutch.co/profile/bird-marketing", img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/clutch-reviews-1.png", rating: "5", count: "65" }
+                                                                            { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/trustpilot-reviews.png", rating: "4.9", count: "98" },
+                                                                            { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/google-reviews.png", rating: "4.9", count: "64" },
+                                                                            { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/goodfirms-reviews-1.png", rating: "5", count: "60", isGoodFirms: true },
+                                                                            { img: "https://c.animaapp.com/mkz11li0RsXIrT/assets/clutch-reviews-1.png", rating: "5", count: "65" }
                                                                         ].map((badge, i) => (
                                                                             <div key={i} className="flex flex-col items-start w-[140px]">
-                                                                                <a href={badge.href} className="group transition-opacity hover:opacity-80">
-                                                                                    <img src={badge.img} alt="" className="h-8 w-auto mb-2 object-contain" />
-                                                                                    <div className="text-sm font-bold text-white">
-                                                                                        {badge.rating}/5 <span className="font-normal text-gray-400 text-xs">({badge.count} Reviews)</span>
-                                                                                    </div>
-                                                                                </a>
+                                                                                <img src={badge.img} alt="" className="h-8 w-auto mb-2 object-contain" />
+                                                                                <div className="text-sm font-bold text-white">
+                                                                                    {badge.rating}/5 <span className="font-normal text-gray-400 text-xs">({badge.count} Reviews)</span>
+                                                                                </div>
                                                                             </div>
                                                                         ))}
                                                                     </div>

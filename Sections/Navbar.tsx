@@ -4,11 +4,12 @@ import { motion } from "framer-motion";
 
 export const Navbar = () => {
     const MENU_LINKS = [
+        { label: "Home", href: "/" },
         { label: "About", href: "/about/" },
         { label: "Services", subMenu: true },
-        { label: "Industries", subMenu: true },
-        { label: "Case Studies", href: "/case-studies/" },
-        { label: "Careers", href: "/careers/" },
+        // { label: "Industries", subMenu: true },
+        // { label: "Case Studies", href: "/case-studies/" },
+        // { label: "Careers", href: "/careers/" },
         { label: "Blog", href: "/blog/" },
         { label: "Contact", href: "/contact/" },
     ];
