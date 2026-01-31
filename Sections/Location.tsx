@@ -1,6 +1,6 @@
 export const Location = () => {
     return (
-        <div className="relative mb-[50px] py-[22.5px] md:py-[76.8px] overflow-hidden">
+        <div className="relative mb-[50px] py-[22.5px] md:py-[76.8px] overflow-hidden px-[25px]">
             <div className="relative flex flex-wrap  z-10">
                 <div className="relative w-full bg-center px-[25px]">
                     <h3 className="text-[19.2px] font-bold tracking-[0.192px] leading-6 mb-2 md:text-[27.2px] md:tracking-[0.272px] md:leading-[34px]">
