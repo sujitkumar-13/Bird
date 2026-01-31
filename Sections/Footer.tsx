@@ -38,9 +38,9 @@ export const Footer = ({ className }: FooterProps) => {
     return (
         <footer className={`bg-black text-white pt-16 pb-8 text-base ${className}`}>
             <div className="w-full mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16 px-8 md:px-16">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-y-12 gap-x-8 mb-16 px-8 md:px-16 text-center sm:text-left">
                     {/* Branding */}
-                    <div className="flex flex-col space-y-6">
+                    <div className="flex flex-col items-center sm:items-start space-y-6 sm:col-span-1 lg:col-span-1">
                         <motion.a
                             href="/"
                             className="flex items-center"
@@ -51,7 +51,7 @@ export const Footer = ({ className }: FooterProps) => {
                                 className="aspect-[399/213] block max-h-16 w-auto"
                             />
                         </motion.a>
-                        <p className="text-gray-400 leading-relaxed text-sm max-w-xs">
+                        <p className="text-gray-400 leading-relaxed text-sm max-w-xs mx-auto sm:mx-0">
                             A multi award winning digital agency based in India. With a distinct offering in Technical Web, Digital Marketing and Creative.
                         </p>
                     </div>
@@ -59,7 +59,7 @@ export const Footer = ({ className }: FooterProps) => {
                     {/* Careers */}
                     <div className="flex flex-col space-y-4">
                         <h3 className="uppercase font-bold tracking-wider text-gray-400 text-sm">Careers</h3>
-                        <p className="text-gray-400 text-sm leading-relaxed">
+                        <p className="text-gray-400 text-sm leading-relaxed max-w-xs mx-auto sm:mx-0">
                             Looking for talented people to join the team. Scan our careers page to find out about working for us.
                         </p>
                         <a href="#contact" onClick={(e) => handleLinkClick(e, "#contact")} className="text-amber-400 text-sm font-semibold hover:underline">Join the flock &rarr;</a>
@@ -68,7 +68,7 @@ export const Footer = ({ className }: FooterProps) => {
                     {/* Support */}
                     <div className="flex flex-col space-y-4">
                         <h3 className="uppercase font-bold tracking-wider text-gray-400 text-sm">Need Support?</h3>
-                        <p className="text-gray-400 text-sm leading-relaxed">
+                        <p className="text-gray-400 text-sm leading-relaxed max-w-xs mx-auto sm:mx-0">
                             On our support plan? feel free to submit a ticket or give us a call during business hours.
                         </p>
                         <p className="text-xs text-gray-500">09.00 am – 17.00 pm</p>
@@ -92,31 +92,31 @@ export const Footer = ({ className }: FooterProps) => {
                     </div>
 
                     {/* Contact Us */}
-                    <div className="flex flex-col space-y-4">
+                    <div className="flex flex-col items-center sm:items-start space-y-4">
                         <h3 className="uppercase font-bold tracking-wider text-gray-400 text-sm">Contact Us</h3>
-                        <div className="flex flex-col space-y-4">
-                            <div className="flex items-start gap-3">
-                                <MapPin className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
-                                <address className="not-italic text-sm text-gray-400 leading-relaxed">
+                        <div className="flex flex-col space-y-4 w-full">
+                            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2 sm:gap-3">
+                                <MapPin className="w-5 h-5 text-amber-400 shrink-0" />
+                                <address className="not-italic text-sm text-gray-400 leading-relaxed text-center sm:text-left">
                                     27 Old Gloucester Street,<br />
                                     Varanasi, Uttar Pradesh, India
                                 </address>
                             </div>
-                            <div className="flex items-center gap-3">
+                            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2 sm:gap-3">
                                 <Phone className="w-5 h-5 text-amber-400 shrink-0" />
                                 <a href="tel:+917524057749" className="text-sm text-gray-400 hover:text-white transition-colors">
                                     +91 7524057749
                                 </a>
                             </div>
-                            <div className="flex items-center gap-3">
+                            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-2 sm:gap-3">
                                 <Mail className="w-5 h-5 text-amber-400 shrink-0" />
-                                <a href="mailto:thedigibazzar@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors underline decoration-amber-400/30">
+                                <a href="mailto:thedigibazzar@gmail.com" className="text-sm text-gray-400 hover:text-white transition-colors underline decoration-amber-400/30 break-all">
                                     thedigibazzar@gmail.com
                                 </a>
                             </div>
                         </div>
-                        {/* Payment Icons moved here */}
-                        <div className="flex flex-wrap gap-2 pt-4">
+                        {/* Payment Icons */}
+                        <div className="flex flex-wrap justify-center sm:justify-start gap-2 pt-4">
                             <img src="https://c.animaapp.com/mkz11li0RsXIrT/assets/bitcoin-btc-logo-2.png" alt="Bitcoin" className="h-5 w-auto" />
                             <img src="https://c.animaapp.com/mkz11li0RsXIrT/assets/monero-xmr-logo.png" alt="Monero" className="h-5 w-auto" />
                             <img src="https://c.animaapp.com/mkz11li0RsXIrT/assets/ethereum-eth-logo-2.png" alt="Ethereum" className="h-5 w-auto" />
@@ -128,9 +128,11 @@ export const Footer = ({ className }: FooterProps) => {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs border-t border-white/20 pt-8 px-8 md:px-16 gap-4 text-center md:text-left">
+                <div className="flex flex-col lg:flex-row justify-between items-center text-gray-500 text-xs border-t border-white/20 pt-8 px-8 md:px-16 gap-4 text-center">
                     <p>© 2026 Digibazzar Marketing. All Rights Reserved.</p>
-                    <p>Registered Address: 27 Old Gloucester Street, Varanasi, Uttar Pradesh, India. | <a href="/sitemap/" className="hover:text-amber-400 underline decoration-white/10">Sitemap</a></p>
+                    <p className="max-w-md lg:max-w-none">
+                        Registered Address: 27 Old Gloucester Street, Varanasi, Uttar Pradesh, India. | <a href="/sitemap/" className="hover:text-amber-400 underline decoration-white/10">Sitemap</a>
+                    </p>
                 </div>
             </div>
         </footer>
