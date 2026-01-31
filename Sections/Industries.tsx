@@ -14,39 +14,24 @@ const INDUSTRIES = [
 
 export const Industries = () => {
     return (
-        <div className={`relative  py-[18.75px] md:py-16`}>
-            <div className="absolute  h-full w-full left-0 top-0">
-                <div className="absolute  h-full w-full z-[1] overflow-hidden left-0 top-0">
-                    <div className="absolute bg-black bg-cover  h-full w-full left-0 top-0"></div>
-                </div>
-            </div>
-            <div className="relative  flex flex-wrap ml-[-25px] mr-[-25px] z-10">
+        <div className={`relative  py-[18.75px] md:py-16 px-[25px]`}>
+            <div className="relative  flex flex-wrap  z-10">
                 <div className="relative  w-full bg-center px-[25px]">
-
                     <div className={`relative  mb-[50px] pb-[1%]`}>
-                        <div className="absolute  h-full w-full left-0 top-0">
-                            <div className="absolute bg-cover  h-full w-full left-0 top-0"></div>
-                        </div>
-                        <div className="relative  flex flex-wrap ml-[-25px] mr-[-25px] z-10">
-
+                        <div className="relative  flex flex-wrap  z-10">
                             <div className="">
-                                <div className="">
-                                    <h2 className="text-[26.4px] font-bold tracking-[-0.264px] leading-[33px] mb-[7px] md:text-[40.8px] md:tracking-[-0.408px] md:leading-[51px]">
-                                        Industries We Work With
-                                    </h2>
-                                    <p className=" ">
-                                        At Bird, we extend our Digital
-                                        Marketing Agency UK expertise
-                                        across a diverse range of
-                                        industries, tailoring strategies
-                                        to meet the unique demands and
-                                        opportunities each sector
-                                        presents.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="relative  w-full bg-center px-[25px] md:w-6/12">
-                                <div className=""></div>
+                                <h2 className="text-[26.4px] font-bold tracking-[-0.264px] leading-[33px] mb-[7px] md:text-[40.8px] md:tracking-[-0.408px] md:leading-[51px]">
+                                    Industries We Work With
+                                </h2>
+                                <p className=" ">
+                                    At Bird, we extend our Digital
+                                    Marketing Agency UK expertise
+                                    across a diverse range of
+                                    industries, tailoring strategies
+                                    to meet the unique demands and
+                                    opportunities each sector
+                                    presents.
+                                </p>
                             </div>
                         </div>
                     </div>

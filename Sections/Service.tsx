@@ -118,7 +118,7 @@ export const Service = () => {
                 </div>
             </div>
             <div className="relative flex flex-wrap z-10">
-                <div className="relative w-full bg-center max-w-[1800px] mx-auto border">
+                <div className="relative w-full bg-center px-[50px]">
                     <h2 className="text-[26.4px] font-bold tracking-[-0.264px] leading-[33px] mb-[7px] md:text-[40.8px] md:tracking-[-0.408px] md:leading-[51px]">
                         Digital Marketing Services
                     </h2>
